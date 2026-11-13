@@ -42,5 +42,8 @@ on this Mac that is `~/Desktop/Build/Products/Debug/WebScarab.app`).
 The SAML, OpenID, WS-Federation, Identity, BeanShell/script manager, Flash AMF and Java-object viewer
 plugins. Search uses built-in text and regular-expression searches instead of BeanShell expressions.
 
+## Methadology
+This application was ported using Claude Code. All code has been hand reviewed and tested by a development team after any AI adjustments.
+
 ## About Us
 Kiwi Dreamer Consulting LLC provides software development and Information security services (architecture, management, development) to small and medium size organizations
