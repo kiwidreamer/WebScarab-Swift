@@ -8,7 +8,7 @@ Open `WebScarab.xcodeproj` in Xcode and press Run, or build from the command lin
 
 Requires macOS 14 or later.
 
-## Where the built app is
+## How to build the application
 
 Run `./build-app.sh` in this folder. It builds the release version and puts the finished app at
 `WebScarabSwift/Build/WebScarab.app`: double-click it, or drag it into Applications.
@@ -16,7 +16,6 @@ Run `./build-app.sh` in this folder. It builds the release version and puts the 
 Builds started from Xcode itself go to Xcode's build folder (Product > Show Build Folder in Finder;
 on this Mac that is `~/Desktop/Build/Products/Debug/WebScarab.app`).
 
-The original Java WebScarab builds with `mvn package` into `target/WebScarab-1.0.0-SNAPSHOT.one-jar.jar`.
 
 ## What's included
 
@@ -42,3 +41,6 @@ The original Java WebScarab builds with `mvn package` into `target/WebScarab-1.0
 
 The SAML, OpenID, WS-Federation, Identity, BeanShell/script manager, Flash AMF and Java-object viewer
 plugins. Search uses built-in text and regular-expression searches instead of BeanShell expressions.
+
+## About Us
+Kiwi Dreamer Consulting LLC provides softwaare developement services (architecture, management, development) and Information Security Architecture services
