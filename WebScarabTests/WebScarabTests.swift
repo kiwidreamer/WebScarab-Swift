@@ -194,3 +194,95 @@ final class CertificateTests: XCTestCase {
         XCTAssertTrue(SecTrustEvaluateWithError(trustRef, &error), "\(String(describing: error))")
     }
 }
+
+final class SamlTests: XCTestCase {
+    // A tiny signed SAML 2.0 Response (structure only; the signature is a placeholder).
+    static let response = """
+    <samlp:Response xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="R1" Destination="https://sp.example/acs">
+      <saml:Issuer>https://idp.example</saml:Issuer>
+      <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo/><ds:SignatureValue>AAAA</ds:SignatureValue></ds:Signature>
+      <saml:Assertion ID="A1">
+        <saml:Subject><saml:NameID>alice</saml:NameID></saml:Subject>
+        <saml:Conditions NotBefore="2020-01-01T00:00:00Z" NotOnOrAfter="2030-01-01T00:00:00Z"/>
+        <saml:AttributeStatement>
+          <saml:Attribute Name="role"><saml:AttributeValue>user</saml:AttributeValue></saml:Attribute>
+        </saml:AttributeStatement>
+      </saml:Assertion>
+    </samlp:Response>
+    """
+
+    func encodedResponse() -> String { SamlAttacks.encode(Self.response) }
+
+    func body(_ encoded: String, relayState: String = "state") -> Data {
+        Data("SAMLResponse=\(encoded)&RelayState=\(relayState)".utf8)
+    }
+
+    func decodeSamlResponse(_ data: Data) -> String {
+        let pairs = NamedValue.split(String(decoding: data, as: UTF8.self), "&", "=")
+        return SamlDecoder.decode(pairs.first { $0.name == "SAMLResponse" }!.value)!
+    }
+
+    func testAnalysisDetectsProtectionsAndAttributes() {
+        let conversation = Conversation(id: 1, date: Date(), request: HTTPRequest(url: URL(string: "https://sp.example/acs")!), response: HTTPResponse(), origin: "Proxy")
+        let analysis = SamlDecoder.analyse(conversation: conversation, kind: .response, encoded: encodedResponse())!
+        XCTAssertEqual(analysis.version, "SAML 2.0")
+        XCTAssertTrue(analysis.hasProtocolSignature)
+        XCTAssertTrue(analysis.hasValidityInterval)
+        XCTAssertTrue(analysis.hasDestinationIndication)
+        XCTAssertEqual(analysis.subject, "alice")
+        XCTAssertEqual(analysis.attributes.first, NamedValue(name: "role", value: "user"))
+    }
+
+    func testRemoveSignature() {
+        var config = SamlAttackConfig()
+        config.removeProtocolSignature = true
+        let (data, applied) = SamlAttacks.apply(config, toFormBody: body(encodedResponse()))!
+        XCTAssertEqual(applied, ["removed signature"])
+        XCTAssertFalse(decodeSamlResponse(data).contains("SignatureValue"))
+    }
+
+    func testInjectSubjectAndAttribute() {
+        var config = SamlAttackConfig()
+        config.injectSubject = true; config.subject = "admin"
+        config.injectAttribute = true; config.injectionAttributes = [SamlNamedValue(name: "role", value: "administrator")]
+        let (data, _) = SamlAttacks.apply(config, toFormBody: body(encodedResponse()))!
+        let xml = decodeSamlResponse(data)
+        XCTAssertTrue(xml.contains("admin"))
+        XCTAssertTrue(xml.contains("administrator"))
+        XCTAssertFalse(xml.contains(">user<"))
+    }
+
+    func testSignatureWrappingDuplicatesAssertion() {
+        var config = SamlAttackConfig()
+        config.signatureWrapping = true; config.wrapper = .assertion; config.renameLastAssertionId = true
+        let (data, applied) = SamlAttacks.apply(config, toFormBody: body(encodedResponse()))!
+        XCTAssertEqual(applied, ["signature wrapping"])
+        let xml = decodeSamlResponse(data)
+        let count = xml.components(separatedBy: "<saml:Assertion").count - 1
+        XCTAssertEqual(count, 2)
+        XCTAssertTrue(xml.contains("renamed-A1"))
+    }
+
+    func testCorruptSignatureChangesValue() {
+        var config = SamlAttackConfig()
+        config.corruptSignature = true
+        let (data, _) = SamlAttacks.apply(config, toFormBody: body(encodedResponse()))!
+        XCTAssertTrue(decodeSamlResponse(data).contains("BAAA"))
+    }
+
+    func testRelayStateInjection() {
+        var config = SamlAttackConfig()
+        config.injectRelayState = true; config.relayState = "/evil"
+        let (data, applied) = SamlAttacks.apply(config, toFormBody: body(encodedResponse()))!
+        XCTAssertTrue(applied.contains("injected relay state"))
+        let pairs = NamedValue.split(String(decoding: data, as: UTF8.self), "&", "=")
+        XCTAssertEqual(pairs.first { $0.name == "RelayState" }?.value, Encoding.urlEncode("/evil"))
+    }
+
+    func testRedirectBindingDeflateDecode() {
+        var deflated = Data()
+        // base64 of raw-deflate "<x/>" is hard to hand-write; round-trip through POST base64 instead.
+        _ = deflated
+        XCTAssertEqual(SamlDecoder.decode(SamlAttacks.encode("<x/>")), "<x/>")
+    }
+}

@@ -10,12 +10,8 @@
 	<string>WebScarab</string>
 	<key>CFBundleExecutable</key>
 	<string>WebScarab</string>
-	<key>CFBundleIconFile</key>
-	<string>webbeetle</string>
-	<key>CFBundleIconName</key>
-	<string>webbeetle</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.kiwidreamer.webscarab.swift</string>
+	<string>org.owasp.webscarab.swift</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -51,6 +47,6 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>14.0</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>WebScarab Swift is derived from WebScarab a free software under the GNU GPL v2 or later.</string>
+	<string>WebScarab is free software under the GNU GPL v2 or later.</string>
 </dict>
 </plist>

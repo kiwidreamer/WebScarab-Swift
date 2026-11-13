@@ -22,6 +22,7 @@ struct MainView: View {
                 CompareView().tabItem { Text("Compare") }.tag(ToolTab.compare)
                 SearchView().tabItem { Text("Search") }.tag(ToolTab.search)
                 FragmentsView().tabItem { Text("Fragments") }.tag(ToolTab.fragments)
+                SamlView().tabItem { Text("SAML") }.tag(ToolTab.saml)
             }
             .padding(.top, 4)
             .frame(minHeight: 400)

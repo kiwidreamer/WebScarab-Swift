@@ -3,33 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>files</key>
-	<dict>
-		<key>Resources/Assets.car</key>
-		<data>
-		XWCrItv+AmU4RJW6WC3E0TbwHcg=
-		</data>
-		<key>Resources/webbeetle.icns</key>
-		<data>
-		Rhn4z4da71XDrBJLvD8Eiv3GJv0=
-		</data>
-	</dict>
+	<dict/>
 	<key>files2</key>
-	<dict>
-		<key>Resources/Assets.car</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yUSZh3MMnUHELr3KpSRMeKKbRdksimMm5N8vfpHZnug=
-			</data>
-		</dict>
-		<key>Resources/webbeetle.icns</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PUm5wWWzt1NWIih6+wto3s5l02VnAdX2icf+FivCwqg=
-			</data>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
 		<key>^Resources/</key>

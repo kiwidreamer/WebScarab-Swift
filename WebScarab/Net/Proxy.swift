@@ -20,6 +20,7 @@ public struct ProxyOptions: Sendable {
     var injectCookies = false
     var interceptHTTPS = true
     var cookies: [Cookie] = []
+    var samlAttacks = SamlAttackConfig()
 
     func shouldIntercept(_ request: HTTPRequest) -> Bool {
         guard interceptRequests, interceptMethods.contains(where: { $0.caseInsensitiveCompare(request.method) == .orderedSame }) else { return false }
@@ -107,6 +108,7 @@ public final class ProxyController: ObservableObject {
     @Published public var disableBrowserCache = false
     @Published public var injectCookies = false
     @Published public var interceptHTTPS = true
+    public var samlAttacks = SamlAttackConfig()
     @Published public private(set) var pending: [InterceptItem] = []
     @Published public private(set) var handledCount = 0
 
@@ -132,6 +134,7 @@ public final class ProxyController: ObservableObject {
         options.disableBrowserCache = disableBrowserCache
         options.injectCookies = injectCookies
         options.interceptHTTPS = interceptHTTPS
+        options.samlAttacks = samlAttacks
         if injectCookies { options.cookies = Framework.shared.currentCookies }
         return options
     }
@@ -249,6 +252,14 @@ enum ProxyPlugins {
                 }
                 request.setHeader("Cookie", pairs.map { "\($0.name)=\($0.value)" }.joined(separator: "; "))
             }
+        }
+        if options.samlAttacks.isActive, request.method == "POST",
+           (request.contentType ?? "").lowercased().hasPrefix("application/x-www-form-urlencoded"),
+           let (body, applied) = SamlAttacks.apply(options.samlAttacks, toFormBody: request.body), !applied.isEmpty {
+            request.body = body
+            request.setHeader("Content-Length", String(body.count))
+            request.setHeader("X-SAMLProxy", applied.joined(separator: "; "))
+            webscarabLog(.info, "SAML Proxy", "Rewrote SAML message for \(request.url.absoluteString): \(applied.joined(separator: ", "))")
         }
         return request
     }

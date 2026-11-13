@@ -17,6 +17,7 @@ final class Plugins {
     let sessionID: SessionIDAnalysis
     let xss: XSSCRLF
     let fragments: Fragments
+    let saml: Saml
     let extensions = Extensions()
 
     private init() {
@@ -25,13 +26,14 @@ final class Plugins {
         sessionID = SessionIDAnalysis(framework: framework)
         xss = XSSCRLF(framework: framework)
         fragments = Fragments(framework: framework)
+        saml = Saml(framework: framework)
     }
 }
 
 enum ToolTab: String, CaseIterable, Identifiable {
     case summary = "Summary", proxy = "Proxy", manualRequest = "Manual Request", spider = "Spider",
          extensions = "Extensions", xss = "XSS/CRLF", sessionID = "SessionID Analysis", fuzzer = "Fuzzer",
-         compare = "Compare", search = "Search", fragments = "Fragments"
+         compare = "Compare", search = "Search", fragments = "Fragments", saml = "SAML"
     var id: String { rawValue }
 }
 
@@ -111,6 +113,7 @@ extension View {
             .environmentObject(plugins.sessionID)
             .environmentObject(plugins.xss)
             .environmentObject(plugins.fragments)
+            .environmentObject(plugins.saml)
             .environmentObject(plugins.extensions)
     }
 }
