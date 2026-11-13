@@ -43,4 +43,4 @@ The SAML, OpenID, WS-Federation, Identity, BeanShell/script manager, Flash AMF a
 plugins. Search uses built-in text and regular-expression searches instead of BeanShell expressions.
 
 ## About Us
-Kiwi Dreamer Consulting LLC provides softwaare development and Information security services (architecture, management, development) to small and medium size organizations
+Kiwi Dreamer Consulting LLC provides software development and Information security services (architecture, management, development) to small and medium size organizations
