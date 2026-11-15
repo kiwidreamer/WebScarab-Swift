@@ -10,6 +10,10 @@
 	<string>WebScarab</string>
 	<key>CFBundleExecutable</key>
 	<string>WebScarab</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.owasp.webscarab.swift</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -19,13 +23,13 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>11</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -47,6 +51,6 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>14.0</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>WebScarab is free software under the GNU GPL v2 or later.</string>
+	<string>WebScarab Swift is derived from WebScarab a free software under the GNU GPL v2 or later.</string>
 </dict>
 </plist>

@@ -1,0 +1,66 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "b8ff234293511c746baacf049484f5f82ba078ee542028f4f8364671b318d641"
+    }
+  ],
+  "containerPath" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "undefined_arch",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx27.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64",
+        "arm64e",
+        "arm64e.x1",
+        "x86_64",
+        "x86_64h"
+      ],
+      "targetArchitecture" : "undefined_arch"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Products",
+      "derivedDataPath" : "/Volumes/IronCore/Users/egrabowski/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Volumes/IronCore/Users/egrabowski/Library/Developer/Xcode/DerivedData/WebScarab-azdgvewtxwdbyiayllrzlkmfizub/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Volumes/IronCore/Users/egrabowski/Library/Developer/Xcode/DerivedData/WebScarab-azdgvewtxwdbyiayllrzlkmfizub/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

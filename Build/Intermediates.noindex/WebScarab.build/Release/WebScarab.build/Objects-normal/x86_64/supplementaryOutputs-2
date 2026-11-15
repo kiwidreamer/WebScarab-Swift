@@ -1,0 +1,12 @@
+{
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/App/WebScarabApp.swift" : {
+    "abi-baseline-json" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab.abi.json",
+    "const-values" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab-primary.swiftconstvalues",
+    "dependencies" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab-primary.d",
+    "diagnostics" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab-primary.dia",
+    "objc-header" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab-Swift.h",
+    "swiftdoc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab.swiftdoc",
+    "swiftmodule" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab.swiftmodule",
+    "swiftsourceinfo" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab.swiftsourceinfo"
+  }
+}

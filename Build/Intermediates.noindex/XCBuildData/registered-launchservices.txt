@@ -1,0 +1,1 @@
+/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Products/Release/WebScarab.app

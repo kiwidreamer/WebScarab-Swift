@@ -1,0 +1,141 @@
+{
+  "" : {
+    "const-values" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary.swiftconstvalues",
+    "dependencies" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary.d",
+    "diagnostics" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary.dia",
+    "emit-module-dependencies" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary-emit-module.dia",
+    "pch" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary.swiftdeps"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/App/WebScarabApp.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarabApp.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarabApp.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarabApp.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Model/Conversation.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Conversation.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Conversation.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Conversation.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Model/Framework.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Framework.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Framework.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Framework.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Model/HTMLScanner.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTMLScanner.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTMLScanner.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTMLScanner.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Model/HTTPMessage.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPMessage.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPMessage.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPMessage.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Model/SessionStore.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionStore.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionStore.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionStore.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Model/Settings.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Settings.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Settings.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Settings.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Model/Utilities.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Utilities.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Utilities.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Utilities.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Net/CertificateAuthority.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/CertificateAuthority.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/CertificateAuthority.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/CertificateAuthority.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Net/HTTPClient.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPClient.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPClient.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPClient.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Net/HTTPReader.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPReader.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPReader.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPReader.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Net/NetConnection.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/NetConnection.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/NetConnection.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/NetConnection.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Net/Proxy.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Proxy.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Proxy.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Proxy.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Plugins/AnalysisPlugins.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/AnalysisPlugins.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/AnalysisPlugins.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/AnalysisPlugins.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Plugins/Fuzzer.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Fuzzer.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Fuzzer.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Fuzzer.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Plugins/Saml.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Saml.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Saml.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Saml.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Plugins/SessionIDAnalysis.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionIDAnalysis.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionIDAnalysis.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionIDAnalysis.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/Plugins/Spider.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Spider.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Spider.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Spider.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/UI/MainView.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MainView.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MainView.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MainView.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/UI/MessageViews.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MessageViews.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MessageViews.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MessageViews.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/UI/ProxyView.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ProxyView.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ProxyView.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ProxyView.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/UI/SamlView.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SamlView.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SamlView.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SamlView.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/UI/SummaryView.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SummaryView.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SummaryView.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SummaryView.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/UI/ToolViews.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ToolViews.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ToolViews.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ToolViews.o"
+  },
+  "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/WebScarab/UI/UtilityViews.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/UtilityViews.o",
+    "llvm-bc" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/UtilityViews.bc",
+    "object" : "/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/UtilityViews.o"
+  }
+}
