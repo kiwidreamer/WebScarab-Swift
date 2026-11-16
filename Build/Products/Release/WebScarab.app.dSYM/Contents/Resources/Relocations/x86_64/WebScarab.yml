@@ -1,6 +1,6 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Products/Release/WebScarab.app/Contents/MacOS/WebScarab'
+binary-path:     '/Volumes/IronCore/Github/WebScarab-Swift/Build/Products/Release/WebScarab.app/Contents/MacOS/WebScarab'
 relocations:
   - { offset: 0xB7BF9, size: 0x8, addend: 0x0, symName: '_$s9WebScarab7PluginsC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x100001880, symSize: 0x40 }
   - { offset: 0xB7FCE, size: 0x8, addend: 0x0, symName: '_$s9WebScarab8AppStateC6shared_WZ', symObjAddr: 0x630, symBinAddr: 0x100001EA0, symSize: 0x40 }
@@ -407,7 +407,7 @@ relocations:
   - { offset: 0xC710C, size: 0x8, addend: 0x0, symName: '_$s9WebScarab12ConversationV23__derived_struct_equalsySbAC_ACtFZTf4nnd_n', symObjAddr: 0xA750, symBinAddr: 0x100016010, symSize: 0x280 }
   - { offset: 0xC722F, size: 0x8, addend: 0x0, symName: '_$s9WebScarab6CookieV23__derived_struct_equalsySbAC_ACtFZTf4nnd_n', symObjAddr: 0xA9D0, symBinAddr: 0x100016290, symSize: 0x130 }
   - { offset: 0xC7304, size: 0x8, addend: 0x0, symName: '_$sSlsE8dropLasty11SubSequenceQzSiFSS_Tg5Tf4ng_n', symObjAddr: 0xAB00, symBinAddr: 0x1000163C0, symSize: 0xC0 }
-  - { offset: 0xC7573, size: 0x8, addend: 0x0, symName: '_$s9WebScarab9FrameworkC6sharedACvpZ', symObjAddr: 0x62468, symBinAddr: 0x10017B978, symSize: 0x0 }
+  - { offset: 0xC7573, size: 0x8, addend: 0x0, symName: '_$s9WebScarab9FrameworkC6sharedACvpZ', symObjAddr: 0x62408, symBinAddr: 0x10017B978, symSize: 0x0 }
   - { offset: 0xC7BEB, size: 0x8, addend: 0x0, symName: '_$s9WebScarab9FrameworkC6sharedACvau', symObjAddr: 0x0, symBinAddr: 0x100017990, symSize: 0x40 }
   - { offset: 0xC879A, size: 0x8, addend: 0x0, symName: '_$s9WebScarab9FrameworkC6shared_WZ', symObjAddr: 0x3190, symBinAddr: 0x10001AAD0, symSize: 0x40 }
   - { offset: 0xC87DB, size: 0x8, addend: 0x0, symName: '_$s9WebScarab9FrameworkC14$conversations7Combine9PublishedV9PublisherVySayAA12ConversationVG_GvpACTk', symObjAddr: 0x32D0, symBinAddr: 0x10001AC10, symSize: 0xB0 }
@@ -1068,9 +1068,9 @@ relocations:
   - { offset: 0xF5992, size: 0x8, addend: 0x0, symName: '_$sSa9repeating5countSayxGx_SitcfCSaySiG_Tt1g5Tf4gn_n', symObjAddr: 0x4CF0, symBinAddr: 0x1000477A0, symSize: 0x90 }
   - { offset: 0xF5A06, size: 0x8, addend: 0x0, symName: '_$s9WebScarab19LevenshteinDistanceO8tokenizeySaySSG10Foundation4DataVFZTf4nd_n', symObjAddr: 0x4D80, symBinAddr: 0x100047830, symSize: 0x3F0 }
   - { offset: 0xF5D85, size: 0x8, addend: 0x0, symName: '_$s9WebScarab8LineDiffO4diffySayAC0C0OGSaySSG_AHtFZTf4nnd_n', symObjAddr: 0x5170, symBinAddr: 0x100047C20, symSize: 0xA90 }
-  - { offset: 0xF6DBB, size: 0x8, addend: 0x0, symName: '_$s9WebScarab3DERO4nullSays5UInt8VGvpZ', symObjAddr: 0x2E2B8, symBinAddr: 0x10017B990, symSize: 0x0 }
-  - { offset: 0xF6DD5, size: 0x8, addend: 0x0, symName: '_$s9WebScarab3DERO9trueValueSays5UInt8VGvpZ', symObjAddr: 0x2E2C0, symBinAddr: 0x10017B998, symSize: 0x0 }
-  - { offset: 0xF6DEF, size: 0x8, addend: 0x0, symName: '_$s9WebScarab20CertificateAuthorityC6sharedACvpZ', symObjAddr: 0x2E2C8, symBinAddr: 0x10017B9A0, symSize: 0x0 }
+  - { offset: 0xF6DBB, size: 0x8, addend: 0x0, symName: '_$s9WebScarab3DERO4nullSays5UInt8VGvpZ', symObjAddr: 0x2E258, symBinAddr: 0x10017B990, symSize: 0x0 }
+  - { offset: 0xF6DD5, size: 0x8, addend: 0x0, symName: '_$s9WebScarab3DERO9trueValueSays5UInt8VGvpZ', symObjAddr: 0x2E260, symBinAddr: 0x10017B998, symSize: 0x0 }
+  - { offset: 0xF6DEF, size: 0x8, addend: 0x0, symName: '_$s9WebScarab20CertificateAuthorityC6sharedACvpZ', symObjAddr: 0x2E268, symBinAddr: 0x10017B9A0, symSize: 0x0 }
   - { offset: 0xF74B3, size: 0x8, addend: 0x0, symName: '_$s9WebScarab3DERO4null_WZ', symObjAddr: 0x530, symBinAddr: 0x100048F70, symSize: 0x30 }
   - { offset: 0xF74E3, size: 0x8, addend: 0x0, symName: '_$s9WebScarab3DERO4nullSays5UInt8VGvau', symObjAddr: 0x560, symBinAddr: 0x100048FA0, symSize: 0x40 }
   - { offset: 0xF7501, size: 0x8, addend: 0x0, symName: '_$s9WebScarab3DERO9trueValue_WZ', symObjAddr: 0x5D0, symBinAddr: 0x100049010, symSize: 0x30 }
@@ -1482,7 +1482,7 @@ relocations:
   - { offset: 0x110A25, size: 0x8, addend: 0x0, symName: '_$s9WebScarab5RelayO4copy4from2toyAA13NetConnectionC_AHtYaFZTf4nnd_nTY8_', symObjAddr: 0x5420, symBinAddr: 0x100062DF0, symSize: 0x50 }
   - { offset: 0x110A67, size: 0x8, addend: 0x0, symName: '_$s9WebScarab5RelayO4copy4from2toyAA13NetConnectionC_AHtYaFZTf4nnd_nTY9_', symObjAddr: 0x5470, symBinAddr: 0x100062E40, symSize: 0x50 }
   - { offset: 0x110ADA, size: 0x8, addend: 0x0, symName: '_$s9WebScarab5RelayO4copy4from2toyAA13NetConnectionC_AHtYaFZTf4nnd_nTY10_', symObjAddr: 0x54C0, symBinAddr: 0x100062E90, symSize: 0x140 }
-  - { offset: 0x110CDC, size: 0x8, addend: 0x0, symName: '_$s9WebScarab15ProxyControllerC6sharedACvpZ', symObjAddr: 0x6CD90, symBinAddr: 0x10017B9B8, symSize: 0x0 }
+  - { offset: 0x110CDC, size: 0x8, addend: 0x0, symName: '_$s9WebScarab15ProxyControllerC6sharedACvpZ', symObjAddr: 0x6CD28, symBinAddr: 0x10017B9B8, symSize: 0x0 }
   - { offset: 0x11171F, size: 0x8, addend: 0x0, symName: '_$s9WebScarab15ProxyControllerC6sharedACvau', symObjAddr: 0x0, symBinAddr: 0x100063C00, symSize: 0x40 }
   - { offset: 0x111DE1, size: 0x8, addend: 0x0, symName: '_$s9WebScarab13InterceptItemC4textSSvpACTk', symObjAddr: 0x13C0, symBinAddr: 0x100064EB0, symSize: 0x80 }
   - { offset: 0x111E68, size: 0x8, addend: 0x0, symName: '_$s9WebScarab15ProxyControllerC6shared_WZ', symObjAddr: 0x2280, symBinAddr: 0x100065D30, symSize: 0x40 }
@@ -1727,7 +1727,7 @@ relocations:
   - { offset: 0x1226E1, size: 0x8, addend: 0x0, symName: '_$s9WebScarab15ProxyConnectionO10serveReady_4baseyAA03NetD0C_10Foundation3URLVSgtYaFZTf4nnd_nTQ5_', symObjAddr: 0x188F0, symBinAddr: 0x10007B7D0, symSize: 0x60 }
   - { offset: 0x12276E, size: 0x8, addend: 0x0, symName: '_$s9WebScarab15ProxyConnectionO10serveReady_4baseyAA03NetD0C_10Foundation3URLVSgtYaFZTf4nnd_nTY6_', symObjAddr: 0x18950, symBinAddr: 0x10007B830, symSize: 0x130 }
   - { offset: 0x12286E, size: 0x8, addend: 0x0, symName: '_$s9WebScarab15ProxyConnectionO10serveReady_4baseyAA03NetD0C_10Foundation3URLVSgtYaFZTf4nnd_nTY7_', symObjAddr: 0x18A80, symBinAddr: 0x10007B960, symSize: 0x340 }
-  - { offset: 0x122BF5, size: 0x8, addend: 0x0, symName: '_$s9WebScarab9FragmentsC5kindsSaySSGvpZ', symObjAddr: 0x680E8, symBinAddr: 0x10017BA10, symSize: 0x0 }
+  - { offset: 0x122BF5, size: 0x8, addend: 0x0, symName: '_$s9WebScarab9FragmentsC5kindsSaySSGvpZ', symObjAddr: 0x68080, symBinAddr: 0x10017BA10, symSize: 0x0 }
   - { offset: 0x123751, size: 0x8, addend: 0x0, symName: '_$s9WebScarab6SearchC8searchesSayAA0C10DefinitionVGvpACTk', symObjAddr: 0x2A40, symBinAddr: 0x10007EEC0, symSize: 0x30 }
   - { offset: 0x1239A1, size: 0x8, addend: 0x0, symName: '_$s9WebScarab6SearchC8$matches7Combine9PublishedV9PublisherVySDy10Foundation4UUIDVShySiGG_GvpACTk', symObjAddr: 0x2FD0, symBinAddr: 0x10007F450, symSize: 0xB0 }
   - { offset: 0x1239DB, size: 0x8, addend: 0x0, symName: '_$s9WebScarab6SearchC8selected10Foundation4UUIDVSgvpfP', symObjAddr: 0x3080, symBinAddr: 0x10007F500, symSize: 0x90 }
@@ -1972,7 +1972,7 @@ relocations:
   - { offset: 0x132F58, size: 0x8, addend: 0x0, symName: '_$sShyShyxGqd__nc7ElementQyd__RszSTRd__lufCSi_SaySiGTt0g5Tf4g_n', symObjAddr: 0x10370, symBinAddr: 0x10008C080, symSize: 0x80 }
   - { offset: 0x133128, size: 0x8, addend: 0x0, symName: '_$s9WebScarab9FragmentsC4find2inSaySS_SStGAA12HTTPResponseV_tFZTf4nd_n', symObjAddr: 0x10820, symBinAddr: 0x10008C3A0, symSize: 0xDF0 }
   - { offset: 0x13403C, size: 0x8, addend: 0x0, symName: '_$s9WebScarab10ExtensionsC4listySaySSGSSFTf4nd_n', symObjAddr: 0x11AE0, symBinAddr: 0x10008D5E0, symSize: 0x330 }
-  - { offset: 0x13453B, size: 0x8, addend: 0x0, symName: '_$s9WebScarab13FuzzParameterV9locationsSaySSGvpZ', symObjAddr: 0x44E50, symBinAddr: 0x10017BA30, symSize: 0x0 }
+  - { offset: 0x13453B, size: 0x8, addend: 0x0, symName: '_$s9WebScarab13FuzzParameterV9locationsSaySSGvpZ', symObjAddr: 0x44DF0, symBinAddr: 0x10017BA30, symSize: 0x0 }
   - { offset: 0x134797, size: 0x8, addend: 0x0, symName: '_$s9WebScarab13FuzzParameterV9locations_WZ', symObjAddr: 0x6E0, symBinAddr: 0x10008F790, symSize: 0x30 }
   - { offset: 0x1347C7, size: 0x8, addend: 0x0, symName: '_$s9WebScarab13FuzzParameterV9locationsSaySSGvau', symObjAddr: 0x710, symBinAddr: 0x10008F7C0, symSize: 0x40 }
   - { offset: 0x1355EE, size: 0x8, addend: 0x0, symName: '_$s9WebScarab6FuzzerC8$results7Combine9PublishedV9PublisherVySaySiG_GvpACTk', symObjAddr: 0x3410, symBinAddr: 0x100091F20, symSize: 0xB0 }

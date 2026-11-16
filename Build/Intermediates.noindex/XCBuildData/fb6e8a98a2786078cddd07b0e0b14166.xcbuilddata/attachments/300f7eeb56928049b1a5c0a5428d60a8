@@ -1,0 +1,141 @@
+{
+  "" : {
+    "const-values" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary.swiftconstvalues",
+    "dependencies" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary.d",
+    "diagnostics" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary.dia",
+    "emit-module-dependencies" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary-emit-module.dia",
+    "pch" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarab-primary.swiftdeps"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/App/WebScarabApp.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarabApp.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarabApp.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/WebScarabApp.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Model/Conversation.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Conversation.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Conversation.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Conversation.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Model/Framework.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Framework.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Framework.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Framework.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Model/HTMLScanner.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTMLScanner.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTMLScanner.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTMLScanner.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Model/HTTPMessage.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPMessage.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPMessage.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPMessage.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Model/SessionStore.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionStore.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionStore.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionStore.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Model/Settings.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Settings.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Settings.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Settings.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Model/Utilities.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Utilities.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Utilities.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Utilities.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Net/CertificateAuthority.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/CertificateAuthority.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/CertificateAuthority.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/CertificateAuthority.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Net/HTTPClient.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPClient.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPClient.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPClient.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Net/HTTPReader.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPReader.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPReader.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/HTTPReader.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Net/NetConnection.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/NetConnection.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/NetConnection.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/NetConnection.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Net/Proxy.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Proxy.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Proxy.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Proxy.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Plugins/AnalysisPlugins.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/AnalysisPlugins.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/AnalysisPlugins.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/AnalysisPlugins.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Plugins/Fuzzer.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Fuzzer.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Fuzzer.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Fuzzer.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Plugins/Saml.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Saml.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Saml.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Saml.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Plugins/SessionIDAnalysis.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionIDAnalysis.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionIDAnalysis.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SessionIDAnalysis.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/Plugins/Spider.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Spider.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Spider.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/Spider.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/UI/MainView.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MainView.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MainView.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MainView.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/UI/MessageViews.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MessageViews.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MessageViews.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/MessageViews.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/UI/ProxyView.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ProxyView.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ProxyView.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ProxyView.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/UI/SamlView.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SamlView.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SamlView.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SamlView.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/UI/SummaryView.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SummaryView.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SummaryView.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/SummaryView.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/UI/ToolViews.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ToolViews.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ToolViews.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/ToolViews.o"
+  },
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/UI/UtilityViews.swift" : {
+    "index-unit-output-path" : "/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/UtilityViews.o",
+    "llvm-bc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/UtilityViews.bc",
+    "object" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/arm64/UtilityViews.o"
+  }
+}

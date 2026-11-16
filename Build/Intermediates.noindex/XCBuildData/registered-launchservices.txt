@@ -1,1 +1,2 @@
 /Users/egrabowski/Downloads/OWASP-WebScarab-master/WebScarabSwift/Build/Products/Release/WebScarab.app
+/Volumes/IronCore/Github/WebScarab-Swift/Build/Products/Release/WebScarab.app
