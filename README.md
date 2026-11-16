@@ -30,6 +30,12 @@ on this Mac that is `~/Desktop/Build/Products/Debug/WebScarab.app`).
 - **Summary** – site tree (URL, methods, status) over the conversation list; the tree filters the list.
   Double-click a conversation for its request and response (parsed, raw, text, HTML, XML/JSON,
   form, image and hex views).
+- **SAML** – picks up SAML single-sign-on messages from recorded traffic, decodes them and shows
+  their type, attributes, relay state and which protections they carry (signatures, destination, validity
+  window). Its Attacks panel rewrites outgoing SAML POSTs for authorized testing of a service provider:
+  signature stripping and corruption, signature wrapping (XSW), subject/attribute injection, remote-reference
+  and DOCTYPE (XXE) injection, RelayState injection and response replay. Each change is logged and marked
+  with an `X-SAMLProxy` header.
 - **Manual Request**, **Spider**, **Extensions**, **XSS/CRLF**, **SessionID Analysis** (with chart),
   **Fuzzer** (fuzz sources from files, built-in lists or patterns such as `[a-z]{2}[0-9]`),
   **Compare**, **Search** and **Fragments** tabs.
@@ -39,8 +45,9 @@ on this Mac that is `~/Desktop/Build/Products/Debug/WebScarab.app`).
 
 ## Not included in this version
 
-The SAML, OpenID, WS-Federation, Identity, BeanShell/script manager, Flash AMF and Java-object viewer
-plugins. Search uses built-in text and regular-expression searches instead of BeanShell expressions.
+The OpenID, WS-Federation, Identity, BeanShell/script manager, Flash AMF and Java-object viewer plugins.
+The SAML plugin's "sign the message with your own key" option is omitted (it needs a full XML-DSig
+implementation); every other SAML attack is included. Search uses built-in text and regular-expression searches instead of BeanShell expressions.
 
 ## Methadology
 This application was ported using Claude Code. All code has been hand reviewed and tested by a development team after any AI adjustments.

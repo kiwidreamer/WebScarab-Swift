@@ -1,0 +1,12 @@
+{
+  "/Volumes/IronCore/Github/WebScarab-Swift/WebScarab/App/WebScarabApp.swift" : {
+    "abi-baseline-json" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab.abi.json",
+    "const-values" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab-primary.swiftconstvalues",
+    "dependencies" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab-primary.d",
+    "diagnostics" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab-primary.dia",
+    "objc-header" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab-Swift.h",
+    "swiftdoc" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab.swiftdoc",
+    "swiftmodule" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab.swiftmodule",
+    "swiftsourceinfo" : "/Volumes/IronCore/Github/WebScarab-Swift/Build/Intermediates.noindex/WebScarab.build/Release/WebScarab.build/Objects-normal/x86_64/WebScarab.swiftsourceinfo"
+  }
+}
